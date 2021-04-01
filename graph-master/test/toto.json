@@ -1,0 +1,6 @@
+{"timestamp": 1615232102.0, "collector": "rrc21", "peer_as": 8426, "peer_ip": "37.49.236.61", "action": "A", "prefix": "130.105.224.0/22", "as_path": "8426 6777 23944 23944", "asn": 23944}
+{"timestamp": 1615232106.0, "collector": "rrc21", "peer_as": 2613, "peer_ip": "37.49.236.246", "action": "A", "prefix": "130.105.224.0/22", "as_path": "2613 6893 174 23944", "asn": 23944}
+{"timestamp": 1615232116.0, "collector": "rrc21", "peer_as": 24482, "peer_ip": "37.49.236.228", "action": "A", "prefix": "130.105.224.0/22", "as_path": "24482 6939 15412 23944", "asn": 23944}
+{"timestamp": 1615232100.0, "collector": "rrc21", "peer_as": 8218, "peer_ip": "37.49.236.1", "action": "A", "prefix": "66.133.179.0/24", "as_path": "8218 6461 5650 7011", "asn": 7011}
+{"timestamp": 1615232100.0, "collector": "rrc21", "peer_as": 8218, "peer_ip": "37.49.232.7", "action": "A", "prefix": "66.133.179.0/24", "as_path": "8218 6461 5650 7011", "asn": 7011}
+

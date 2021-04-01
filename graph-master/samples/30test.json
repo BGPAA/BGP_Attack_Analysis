@@ -1,0 +1,30 @@
+{"timestamp": 1615224900.0, "collector": "rrc21", "peer_as": 24482, "peer_ip": "37.49.236.228", "action": "A", "prefix": "170.244.28.0/24", "as_path": "24482 174 7195 13786 268895 263608", "asn": 263608}
+{"timestamp": 1615224900.0, "collector": "rrc21", "peer_as": 24482, "peer_ip": "37.49.236.228", "action": "A", "prefix": "217.117.98.0/24", "as_path": "24482 174 8881 8881", "asn": 8881}
+{"timestamp": 1615224900.0, "collector": "rrc21", "peer_as": 24482, "peer_ip": "37.49.236.228", "action": "A", "prefix": "66.185.119.0/24", "as_path": "24482 43531 55818 42", "asn": 42}
+{"timestamp": 1615224900.0, "collector": "rrc21", "peer_as": 24482, "peer_ip": "37.49.236.228", "action": "A", "prefix": "168.243.93.0/24", "as_path": "24482 6453 6762 52468 52468 52468 262179", "asn": 262179}
+{"timestamp": 1615224900.0, "collector": "rrc21", "peer_as": 15547, "peer_ip": "2001:7f8:54::156", "action": "A", "prefix": "2a0e:b107:2f0::/44", "as_path": "15547 6939 6762 31500 57578 205908", "asn": 205908}
+{"timestamp": 1615224900.0, "collector": "rrc21", "peer_as": 24482, "peer_ip": "37.49.236.228", "action": "A", "prefix": "170.244.28.0/24", "as_path": "24482 6453 5511 13786 268895 263608", "asn": 263608}
+{"timestamp": 1615224900.0, "collector": "rrc21", "peer_as": 24482, "peer_ip": "2001:7f8:54::228", "action": "A", "prefix": "2a0f:9400:8027::/48", "as_path": "24482 6453 2914 20473", "asn": 20473}
+{"timestamp": 1615224900.0, "collector": "rrc21", "peer_as": 58308, "peer_ip": "37.49.236.172", "action": "A", "prefix": "168.243.93.0/24", "as_path": "58308 59689 30781 3356 6762 52468 52468 52468 262179", "asn": 262179}
+{"timestamp": 1615224900.0, "collector": "rrc21", "peer_as": 24482, "peer_ip": "37.49.236.228", "action": "A", "prefix": "170.244.28.0/24", "as_path": "24482 6453 3356 268895 263608", "asn": 263608}
+{"timestamp": 1615224900.0, "collector": "rrc21", "peer_as": 24482, "peer_ip": "2001:7f8:54::228", "action": "A", "prefix": "2a0f:9400:8027::/48", "as_path": "24482 6453 3356 20473", "asn": 20473}
+{"timestamp": 1615224900.0, "collector": "rrc21", "peer_as": 24482, "peer_ip": "37.49.236.228", "action": "A", "prefix": "66.185.119.0/24", "as_path": "24482 6453 2914 715 42", "asn": 42}
+{"timestamp": 1615224900.0, "collector": "rrc21", "peer_as": 8218, "peer_ip": "37.49.232.7", "action": "A", "prefix": "168.243.93.0/24", "as_path": "8218 174 6762 52468 52468 52468 262179", "asn": 262179}
+{"timestamp": 1615224900.0, "collector": "rrc21", "peer_as": 37721, "peer_ip": "2001:7f8:54::1:239", "action": "A", "prefix": "2607:6003:2309::/48", "as_path": "37721 3356 12189 46385", "asn": 46385}
+{"timestamp": 1615224900.0, "collector": "rrc21", "peer_as": 24482, "peer_ip": "37.49.236.228", "action": "A", "prefix": "66.185.119.0/24", "as_path": "24482 55818 42", "asn": 42}
+{"timestamp": 1615224900.0, "collector": "rrc21", "peer_as": 57199, "peer_ip": "2001:7f8:54::27", "action": "A", "prefix": "2804:15cc::/32", "as_path": "57199 200780 52320 52662 263390 16735 263411", "asn": 263411}
+{"timestamp": 1615224900.0, "collector": "rrc21", "peer_as": 199524, "peer_ip": "2001:7f8:54::1:175", "action": "A", "prefix": "2a06:e881:2502::/48", "as_path": "199524 6939 6762 31500 57578 205908", "asn": 205908}
+{"timestamp": 1615224900.0, "collector": "rrc21", "peer_as": 204708, "peer_ip": "37.49.237.194", "action": "A", "prefix": "2a0f:9400:8027::/48", "as_path": "204708 5511 3356 20473", "asn": 20473}
+{"timestamp": 1615224900.0, "collector": "rrc21", "peer_as": 8218, "peer_ip": "37.49.232.7", "action": "A", "prefix": "66.185.119.0/24", "as_path": "8218 6461 2914 715 42", "asn": 42}
+{"timestamp": 1615224900.0, "collector": "rrc21", "peer_as": 204708, "peer_ip": "37.49.237.194", "action": "A", "prefix": "2a06:e881:2502::/48", "as_path": "204708 6939 6762 31500 57578 205908", "asn": 205908}
+{"timestamp": 1615224901.0, "collector": "rrc21", "peer_as": 24482, "peer_ip": "37.49.236.228", "action": "A", "prefix": "168.243.93.0/24", "as_path": "24482 174 6762 52468 52468 52468 262179", "asn": 262179}
+{"timestamp": 1615224901.0, "collector": "rrc21", "peer_as": 24482, "peer_ip": "2001:7f8:54::228", "action": "A", "prefix": "2a0f:9400:8027::/48", "as_path": "24482 174 3356 20473", "asn": 20473}
+{"timestamp": 1615224901.0, "collector": "rrc21", "peer_as": 37721, "peer_ip": "2001:7f8:54::1:239", "action": "A", "prefix": "2a01:7b40::/32", "as_path": "37721 41692 47347", "asn": 47347}
+{"timestamp": 1615224901.0, "collector": "rrc21", "peer_as": 15547, "peer_ip": "37.49.236.156", "action": "A", "prefix": "185.125.100.0/22", "as_path": "15547 12695 203747", "asn": 203747}
+{"timestamp": 1615224900.0, "collector": "rrc21", "peer_as": 57199, "peer_ip": "2001:7f8:54::27", "action": "A", "prefix": "2a06:e881:2502::/48", "as_path": "57199 35280 6939 20764 57578 57578 205908", "asn": 205908}
+{"timestamp": 1615224901.0, "collector": "rrc21", "peer_as": 15547, "peer_ip": "2001:7f8:54::156", "action": "A", "prefix": "2a0e:6080::/48", "as_path": "15547 50629 56382 56382 56382 212745", "asn": 212745}
+{"timestamp": 1615224900.0, "collector": "rrc21", "peer_as": 198290, "peer_ip": "37.49.236.123", "action": "A", "prefix": "66.185.119.0/24", "as_path": "198290 174 2914 715 42", "asn": 42}
+{"timestamp": 1615224901.0, "collector": "rrc21", "peer_as": 15547, "peer_ip": "37.49.236.156", "action": "A", "prefix": "168.243.93.0/24", "as_path": "15547 3356 6762 52468 52468 52468 262179", "asn": 262179}
+{"timestamp": 1615224901.0, "collector": "rrc21", "peer_as": 15547, "peer_ip": "37.49.236.156", "action": "A", "prefix": "185.146.133.0/24", "as_path": "15547 12779 44092 207545", "asn": 207545}
+{"timestamp": 1615224900.0, "collector": "rrc21", "peer_as": 198290, "peer_ip": "2001:7f8:54::123", "action": "A", "prefix": "2a00:9d20:5353::/48", "as_path": "198290 6939 16265 60626", "asn": 60626}
+{"timestamp": 1615224901.0, "collector": "rrc21", "peer_as": 204708, "peer_ip": "37.49.237.194", "action": "A", "prefix": "168.243.93.0/24", "as_path": "204708 50903 174 6762 52468 52468 52468 262179", "asn": 262179}

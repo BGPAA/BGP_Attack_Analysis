@@ -1,0 +1,1 @@
+{"timestamp": 1614556509.0, "collector": "rrc21", "peer_as": 57695, "peer_ip": "2001:7f8:4::e15f:1", "type": "U", "announce": {"prefix": "2804:7f7:a000::/35", "asn": 18881, "as_path": "57695 6939 18881"}, "conflict_with": {"prefix": "2804:7f7:a000::/35", "asn": 10429}, "asn": 10429}

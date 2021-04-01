@@ -1,0 +1,49 @@
+{
+   "type" : "table_dump_v2",
+   "timestamp" : 1614585600,
+   "prefix" : "0.0.0.0/0",
+   "entries" : [
+      {
+         "as_path" : "42275",
+         "peer_ip" : "2001:7f8:54::1:204",
+         "originated_timestamp" : 1612222851,
+         "peer_as" : 42275
+      },
+      {
+         "peer_as" : 35600,
+         "originated_timestamp" : 1611788048,
+         "peer_ip" : "37.49.236.55",
+         "as_path" : "35600 35625"
+      },
+      {
+         "peer_as" : 34019,
+         "originated_timestamp" : 1614148860,
+         "peer_ip" : "37.49.236.71",
+         "as_path" : "34019 30781"
+      },
+      {
+         "peer_as" : 41157,
+         "originated_timestamp" : 1598502593,
+         "peer_ip" : "37.49.236.97",
+         "as_path" : "41157"
+      },
+      {
+         "peer_ip" : "37.49.237.143",
+         "as_path" : "50628",
+         "peer_as" : 50628,
+         "originated_timestamp" : 1614585587
+      },
+      {
+         "as_path" : "199524 1299",
+         "peer_ip" : "37.49.237.175",
+         "originated_timestamp" : 1613038930,
+         "peer_as" : 199524
+      },
+      {
+         "originated_timestamp" : 1603039792,
+         "peer_as" : 35426,
+         "as_path" : "35426 3257",
+         "peer_ip" : "37.49.237.231"
+      }
+   ]
+}
