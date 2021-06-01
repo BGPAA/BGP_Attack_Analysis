@@ -93,22 +93,22 @@ def concat_file(date_debut, date_fin):
 
 
 now = datetime.now(pytz.utc) - timedelta(minutes=5)
-now_str = now.strftime("%Y-%m-%d_%H:%M")
-now = datetime.strptime(now_str, "%Y-%m-%d_%H:%M")
+now_str = now.strftime("%Y-%m-%d_%H-%M")
+now = datetime.strptime(now_str, "%Y-%m-%d_%H-%M")
 now -= timedelta(minutes=int(now.minute)%5)
 
 
 begin = sys.argv[1]
 end = sys.argv[2]
-pattern = "[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]_[0-9][0-9]:[0-9][0-9]"
+pattern = "[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]_[0-9][0-9]-[0-9][0-9]"
 
 if not re.match(pattern, begin) or not re.match(pattern, end):
-    raise Exception("Datetimes must be in the following format : YYYY-mm-dd_HH:MM")
+    raise Exception("Datetimes must be in the following format : YYYY-mm-dd_HH-MM")
 
-date_begin = datetime.strptime(begin, "%Y-%m-%d_%H:%M")
+date_begin = datetime.strptime(begin, "%Y-%m-%d_%H-%M")
 date_begin -= timedelta(minutes=int(date_begin.minute)%5)
 
-date_end = datetime.strptime(end, "%Y-%m-%d_%H:%M")
+date_end = datetime.strptime(end, "%Y-%m-%d_%H-%M")
 date_end -= timedelta(minutes=int(date_end.minute)%5)
 
 
