@@ -70,8 +70,8 @@ Execution on a given time window (time format = 'YYYY-mm-DD_HH:MM', latest data 
 ### execute as a crontab
 To start loading the job automatically after each 5min update from RIPE, and store results in 'archives', add this to your crontab :
 ```sh
-*/5 * * * * ./detect.sh -new
-55 23 * * * python3 alerting/alert_mail.py
+*/5 * * * * cd /your/absolute/path/BGP_Attack_Analysis && ./detect-new.sh
+55 23 * * * cd /your/absolute/path/BGP_Attack_Analysis && python3 alerting/alert_mail.py
 ```
 
 This will start both the discord bot (which will display hijacks results avery 5min) and the mail alerting (which will send each day all the hijacks detected during the day).
