@@ -70,7 +70,7 @@ Execution on a given time window (time format = 'YYYY-mm-DD_HH:MM', latest data 
 ### execute as a crontab
 To start loading the job automatically after each 5min update from RIPE, and store results in 'archives', add this to your crontab :
 ```sh
-*/5 * * * * cd /your/absolute/path/BGP_Attack_Analysis && ./detect-new.sh
+*/5 * * * * /your/absolute/path/BGP_Attack_Analysis/detect.sh -new  >> /tmp/bpg.log 2>&1 
 55 23 * * * cd /your/absolute/path/BGP_Attack_Analysis && python3 alerting/alert_mail.py
 ```
 
