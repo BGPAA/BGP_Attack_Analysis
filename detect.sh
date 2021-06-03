@@ -1,3 +1,7 @@
+#!/bin/bash
+working_dir=""
+cd $working_dir
+
 if [ $# -eq 0 ] || [ $1 == '-h' ]; then
     printf "=== USAGE :\n\n   Execution on specific file :\n./detect.sh <zipped MRT_file_path>\n\n   Download and execution of the newest update from RIPE :\n./detect.sh -new\n\n   Execution and generate graph of all.routes.json :\n./detect.sh (-new | <mrt_file.gz>) -graph\n\n   Execution on a given time window (time format = 'YYYY-mm-DD_HH:MM', data will be downloaded from RIPE) and generate graph :\n./detect.sh -timewindow <start_time> <end_time>\n\nTo start loading the job automatically after each 5min update from RIPE, and store results in 'archives', add this to your crontab :\n*/5 * * * * ./detect.sh -new\n\n===\n"
     exit 0
