@@ -12,14 +12,14 @@ elif [ $1 == '-timewindow' ]; then
         # python script to retrieve data from RIPE and compute all json files from TaBi.
         python timewindow.py $2 $3
         printf "EXECUTION : done. Check results in 'output' folder.\n"
-        mv output/no_name/all.routes.json.gz archives/$(date '+%Y-%m-%d_%H:%M:%S')_timewindow_routes.json.gz
-        mv output/no_name/all.hijacks.json.gz archives/$(date '+%Y-%m-%d_%H:%M:%S')_timewindow_hijacks.json.gz
+        mv output/no_name/all.routes.json.gz archives/$(date '+%Y-%m-%d_%H-%M-%S')_timewindow_routes.json.gz
+        mv output/no_name/all.hijacks.json.gz archives/$(date '+%Y-%m-%d_%H-%M-%S')_timewindow_hijacks.json.gz
         python graph-master/route_graph_complex.py output/no_name/all.routes.json output/no_name/all.hijacks.json
         rm -f output/no_name/*.json
 	deactivate
         exit 0
     else
-        printf "Wrong arguments. Time format = 'YYYY-mm-DD_HH:MM'. Usage :\n./detect.sh -timewindow <start_time> <end_time>\n"
+        printf "Wrong arguments. Time format = 'YYYY-mm-DD_HH-MM'. Usage :\n./detect.sh -timewindow <start_time> <end_time>\n"
         exit 1
     fi
 
@@ -48,8 +48,8 @@ elif [ $1 == '-new' ] || test -f "$1"; then
     rm -f output/log.txt
     deactivate
     printf "EXECUTION : done. Check results in 'output' folder.\n"
-    cp output/no_name/all.routes.json.gz archives/$(date '+%Y-%m-%d_%H:%M:%S')_routes.json.gz
-    cp output/no_name/all.hijacks.json.gz archives/$(date '+%Y-%m-%d_%H:%M:%S')_hijacks.json.gz
+    cp output/no_name/all.routes.json.gz archives/$(date '+%Y-%m-%d_%H-%M-%S')_routes.json.gz
+    cp output/no_name/all.hijacks.json.gz archives/$(date '+%Y-%m-%d_%H-%M-%S')_hijacks.json.gz
 
     #python3 alerting/alert_discord.py
     printf "ALERTING : discord bot displayed the detected hijacks.\n"
