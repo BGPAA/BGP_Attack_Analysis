@@ -162,8 +162,5 @@ Display help.
 Setup your smtp server, sender info and the mailing list in 'alert_mail.py'.
 A mail will be sent each day (see crontab) with all the hijacks of the day. 
 
-# Process explanation :
-TODO
-
 ## BGPAA project overview
 ![Alt text](poster/Poster_bgpaa.svg)
